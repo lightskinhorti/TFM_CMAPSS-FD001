@@ -1,0 +1,48 @@
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Entornos virtuales ────────────────────────────────────────
+.env
+.venv/
+venv/
+env/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Artefactos ML (se regeneran ejecutando el notebook) ───────
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+mlruns/
+mlartifacts/
+
+# ── Outputs temporales de Colab ───────────────────────────────
+*.png
+*.jpg
+!docs/          # excepción: imágenes en /docs sí se trackean
+
+# ── IDE ───────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+logs/
